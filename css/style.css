@@ -1,0 +1,514 @@
+/* Google Font */
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:sans-serif;
+}
+a{
+	text-decoration: none;
+	transition: .3s all ease;
+}
+a:hover{text-decoration: none;}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+/* Default CSS Start*/
+.pt-100{padding-top: 100px;}
+.pb-120{padding-bottom: 120px;}
+.pt-120{padding-top: 120px;}
+.pb-70{padding-bottom: 70px;}
+.pb-80{padding-bottom: 80px;}
+.mb-50{margin-bottom: 50px;}
+.mb-40{margin-bottom: 40px;}
+.mb-65{margin-bottom: 65px;}
+.mb-80{margin-bottom: 80px;}
+.grey-bg{background-color: #F5FCFD;}
+.section-title h3 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 1;
+}
+.section-title h3:before {
+  position: absolute;
+  content: "";
+  background-image: url('../img/section-title-bg.png');
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  right: 0;
+  margin: 0 auto;
+  background-position: center;
+  z-index: -1;
+}
+/* Default CSS End*/
+
+
+/* Header area CSS Start */
+
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  display: block;
+  padding: 40px;
+  color: #0d0c0c;
+  font-size: 16px;
+}
+.main-menu ul li:hover a {
+	color: #fff;
+}
+.logo {
+  margin-top: 32px;
+}
+.header-area {
+  position: relative;
+}
+.header-bg {
+	position: absolute;
+	content: "";
+	background-image: url('../img/shape1.png');
+	width: 1400px;
+	height: 560px;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background-size: cover;
+	background-position: center bottom;
+}
+.boxed-btn {
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 10px 35px;
+	display: inline-block;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+
+.header-image img {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #000;
+}
+.header-content h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.header-content p {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+
+.boxed-btn.blue-btn,.boxed-btn.blue-btn.active:hover{
+  color: #1062f4;
+  border: 1px solid #1062f4;
+  margin-right: 20px;
+  background-color:transparent;
+}
+.boxed-btn.blue-btn.active, .boxed-btn.blue-btn:hover {
+  background: #1062f4;
+  color: #fff;
+}
+
+
+/* About Area Css Start */
+
+.about-bg img {
+  width: 100%;
+  height: 280px;
+   border-radius: 5px;
+  box-shadow: 0px 0px 5px #000;
+}
+.about-text {
+  padding: 40px 0;
+}
+.about-text h4 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-text p {
+  color: #b4b4b4;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.about-text a i {
+  padding-left: 5px;
+}
+
+/* Features Area Css Start */
+
+.feature-content {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #ddd;
+	padding: 35px;
+	border-bottom: 6px solid transparent;
+	transition: .3s all;
+	border-radius: 5px;
+}
+.feature-content i {
+  width: 60px;
+  height: 60px;
+  background-color: #DFEDFF;
+  color: #1980FF;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.feature-content:hover {
+  margin-top: -20px;
+  border-bottom: 6px solid #1980FF;
+}
+.feature-content h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.feature-content p {
+  margin: 0;
+  color: #AAAAAA;
+  font-size: 16px;
+}
+
+
+/* Counter Area CSS Start */
+
+.counter-bg {
+  position: relative;
+}
+.counter-bg:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #F5FCFD;
+  height: 100%;
+  width: 55%;
+  z-index: -1;
+}
+.counter-bg:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  background-image: url('../img/counter-bg.png');
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.single-counter {
+  color: #fff;
+}
+.single-counter span {
+  font-size: 25px;
+  display: inline-block;
+}
+/* Screenshot Area Css Start */
+
+.single-screenshot img {
+	width: 300px;
+	height: 250px;
+	transform: scale(1);
+  transition: .3s all;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000
+}
+.screenshot-active.owl-carousel .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.screenshot-active.owl-carousel .owl-dot {
+  height: 8px;
+  width: 20px;
+  background: #ddd;
+  margin: 0 5px;
+  border-radius: 30px;
+}
+.screenshot-active.owl-carousel .owl-dot.active {
+  width: 30px;
+  background: #0074E8;
+}
+.single-screenshot:hover img {
+	transform: scale(1.1);
+	margin-top: -30px;
+	height: 272px;
+}
+.screenshot-active.owl-carousel .owl-stage-outer {
+  overflow: inherit;
+}
+.screenshot-area.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+
+
+
+
+/*-----------------------
+    Tabs style 1
+-------------------------*/
+.left-side-pricing {
+	padding: 110px 0px;
+}
+.pricing-btn ul{
+  border-bottom: 0;
+}
+.pricing-btn ul li a {
+	color: #fff;
+	border: 0;
+	padding: 10px 45px;
+	display: block;
+	text-align: center;
+	background: #0074E8;
+	border-radius: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.pricing-btn ul li {
+  display: inline-block;
+}
+.pricing-btn ul li:hover a {
+  background-color: #22c6df;
+  color: #000;
+}
+
+
+.single-pricing-table {
+  background-color: #fff;
+  padding: 40px 90px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #bcbcbc;
+}
+.pricing-icon {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+  background: #DFEDFF;
+  line-height: 60px;
+  border-radius: 50%;
+}
+.pricing-icon i {
+  width: 45px;
+  height: 45px;
+  background: #CFE4FE;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #0F7BFF;
+}
+.single-pricing-table h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid cornflowerblue;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.single-pricing-table ul li {
+  color: #C0C0C0;
+  padding: 5px 0;
+}
+.single-pricing-table p {
+  font-size: 30px;
+  color: #0074E8;
+}
+.single-pricing-table p span {
+  font-size: 45%;
+}
+.price-button {
+  background: #0074E8;
+  color: #fff;
+  padding: 10px 35px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+
+
+/* Review Area CSS Start */
+
+.review-area {
+  position: relative;
+}
+.review-area:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: aliceblue;
+  border-radius: 0 0 0 250px;
+}
+.single-review {
+  padding: 50px 60px;
+}
+.single-review h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.single-review h4 span {
+  font-size: 75%;
+  display: block;
+  font-weight: 400;
+  margin-top: 5px;
+  padding-left: 7px;
+}
+.review-active .owl-nav {
+  position: absolute;
+  bottom: 3%;
+  left: 57%;
+}
+.review-active.owl-carousel .owl-nav .owl-prev,.review-active.owl-carousel .owl-nav .owl-next {
+  margin-right: 20px;
+  background: #fff;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  color: #0074E8;
+  border: 1px solid #0074E8;
+}
+.review-active.owl-carousel .owl-nav .owl-prev:hover,.review-active.owl-carousel .owl-nav .owl-next:hover {
+  background: #0074E8;
+  color: #fff;
+}
+
+.review-active .owl-dot img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px 0;
+}
+.review-active .owl-dots {
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.review-active .owl-dots .owl-dot.active {
+  position: absolute;
+  top: 20%;
+  left: 140px;
+}
+.review-active .owl-dots .owl-dot.active img {
+  width: 190px;
+  height: 190px;
+}
+/* .review-active .owl-dot:nth-child(4) {
+  padding-left: 60px;
+}
+.review-active .owl-dot:nth-child(2) {
+  padding-left: 60px;
+} */
+/* Latest News Css Start */
+
+.single-news img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+}
+.list-news-inner {
+  display: flex;
+}
+.list-image img {
+  width: 180px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+}
+.news-text {
+  padding-left: 20px;
+}
+.news-text h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.news-text p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.single-news h2 {
+  font-size: 28px;
+  color: cornflowerblue;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+
+/* CPA Area Css Start */
+.cpa-btn {
+  background: #0074E8;
+  color: #fff;
+  padding: 15px 55px;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #0074E8;
+}
+.cpa-text p {
+  color: #a4a3a3;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.cpa-area {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer Area CSS Start */
+
+.footer-widget p {
+  color: #C7CBCC;
+  margin-top: 25px;
+  line-height: 1.8;
+  padding-right: 25px;
+}
+.footer-social i {
+  color: #C7CBCC;
+  padding-right: 10px;
+  font-size: 16px;
+  transition: .3s all;
+}
+.footer-social i:hover {
+  color: #0074E8;
+}
+ul.footer-top-list li {
+  padding: 5px 0;
+  color: #C7CBD3;
+  font-size: 13px;
+  transition: .3s all;
+}
+ul.footer-top-list {
+  margin-top: 20px;
+}
+ul.footer-top-list li:hover {
+  color: #0074E8;
+}
+
+/* Footer Bottom */
+.copyright-text {
+  margin: 0;
+  font-size: 13px;
+  color: #C7CBCC;
+}
+.footer-bottom-area {
+  padding: 25px 0;
+  border-top: 1px solid #ddd;
+}
+.footer-bottom-menu ul li {
+  display: inline-block;
+  padding-right: 30px;
+  color: #C7CBCC;
+  transition: .3s all;
+  font-size: 13px;
+}
+.footer-bottom-menu ul li:hover {
+  color: #0074E8;
+}
